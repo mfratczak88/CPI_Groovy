@@ -1,7 +1,7 @@
 import com.sap.gateway.ip.core.customdev.util.Message;
 
 class Script{
-    void doSomething(){
-
+    Message processMessage(Message message){
+        return message;
     }
 }
