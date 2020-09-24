@@ -1,0 +1,5 @@
+class Script{
+    void doSomething(){
+
+    }
+}
