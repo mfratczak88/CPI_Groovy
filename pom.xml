@@ -18,6 +18,7 @@
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <junit-platform-surefire-provider.version>1.0.1</junit-platform-surefire-provider.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <camel-core.version>2.25.2</camel-core.version>
     </properties>
 
     <dependencies>
@@ -26,6 +27,12 @@
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
             <version>${groovy.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-core</artifactId>
+            <version>${camel-core.version}</version>
         </dependency>
 
         <!-- test -->
